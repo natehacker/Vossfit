@@ -1,3 +1,7 @@
+Nathan Louissaint
+12/21/2022
+Capstone Prompt
+
 Vossfit 
 Nutrition Line
 is a retail company based in Atlanta, Georgia that specializes in 
