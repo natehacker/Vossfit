@@ -13,12 +13,16 @@ health and nutrition-related products, including vitamins,
 supplements, minerals, herbs, sports nutrition, diet, and energy products
 The company also has different techniques when it comes to manufacturing our products
 such as capsule manufacturing, Tablet Manufacturing, Powder Manufacturing, Gummies Manufacturing
+users will be able to add/update their cart remove items 
+
+
+
 
 
 technologies
 react for front end 
 django for backend
-new tech = unknown
+new tech = sass
 
 
 <img src ="vossfit.png" alt="voss">
