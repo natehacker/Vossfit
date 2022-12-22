@@ -16,8 +16,8 @@ such as capsule manufacturing, Tablet Manufacturing, Powder Manufacturing, Gummi
 
 
 technologies
-react 
-django
+react for front end 
+django for backend
 new tech = unknown
 
 
