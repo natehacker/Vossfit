@@ -1,43 +1,71 @@
-import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-class nav extends Component {
-    render(){
+const Nav = () => {
+    return (
+   
 
-        const pages = [
-            {id: "1", name:"Home", class: "active", link: ""},
-            {id: "2", name:"Mobile", class: "", link: "/shop"},
-            {id: "3", name:"Fashion street", class: "", link: "/fashion"},
-            {id: "4", name:"Cart", class: "", link: ""},
-            {id: "5", name:"Checkout", class: "", link: ""},
-            {id: "6", name:"Contact", class: "", link: ""},
-        ]
-        const navlinks = pages.map(page=>{
-            return(
-                <li className={page.class} key={page.id}><Link to={page.link}>{page.name}</Link></li>
-            )
-        });
-        return (
-            <div className="mainmenu-area">
-                <div className="container">
-                    <div className="row">
-                        <div className="navbar-header">
-                            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span className="sr-only">Toggle navigation</span>
-                                <span className="icon-bar"></span>
-                                <span className="icon-bar"></span>
-                                <span className="icon-bar"></span>
-                            </button>
-                        </div> 
-                        <div className="navbar-collapse collapse">
-                            <ul className="nav navbar-nav">
-                                {navlinks}
-                            </ul>
-                        </div>  
-                    </div>
-                </div>
+<header>
+<div class="topbar">
+        <div class="topbar-left">
+            <i class="logo fas fa-igloo"></i>
+            <h1>VossFitness</h1>
+        </div>
+        <div class="topbar-center">
+            <div class="topbar-search">
+                <i class="search-icon fas fa-search"></i>
+                <input type="text" placeholder="Search..."/>
             </div>
-        );
-    }
-}
-export default nav; 
+        </div>
+        <div class="topbar-right">
+            <div class="line-container">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu-top">
+            <div class="menu-search">
+                <i class="search-icon fas fa-search"></i>
+                <input type="text" placeholder="Search"/>
+            </div>
+        </div>
+        <div class="menu-center">
+            <div class="menu-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-paper-plane"></i>
+                <span>Pages</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-user-friends"></i>
+                <span>Groups</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-users"></i>
+                <span>People</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-bullhorn"></i>
+                <span>Updates</span>
+            </div>
+        </div>
+        <div class="menu-bottom">
+            <div class="menu-bottom-user">
+                <img src="https://images.pexels.com/photos/5944321/pexels-photo-5944321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt=""/>
+                <span>John Doe</span>
+            </div>
+            <i class="far fa-question-circle"></i>
+        </div>
+    </div>
+</header>
+    
+  
+     
+   )
+  }
+  export default Nav;
