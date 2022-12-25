@@ -1,20 +1,26 @@
-import { Route,Routes } from 'react-router-dom';
-import './App.css';
-import Nav from './components/Nav';
-import Protein from './components/Protein';
-import Home from "./components/Home"
-import Controls from "./controls"
+import React from 'react';
+//  import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
+ import Footer from "./components/containers/Footer"
+ import Navbar from "./components/Navbar"
+ import Header from './components/containers/Header';
+//  import { CTA, Brand, Navbar } from '..';
 
-function App() {
-  return (
-    <div>
-       <Nav/>
-       <Routes>
-       <Route path="/" element={<Home/>}/>
-       <Route path="/Nav" element={<Nav/>}/>
-       </Routes>
+import './App.css';
+
+const App = () => (
+  <div className="App">
+    <div className="gradient__bg">
+      <Navbar />
+       <Header />
     </div>
-  );
-}
+    {/* <Brand />
+    <WhatGPT3 />
+    <Features />
+    <Possibility /> */}
+    {/* <CTA /> */}
+    {/* <Blog /> */}
+    <Footer />
+  </div>
+);
 
 export default App;
