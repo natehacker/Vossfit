@@ -42,7 +42,7 @@ const Navbar = () => {
             <button type="button">Sign up</button>
           </div>
         </div>
-        )}
+        {/* )} */}
       </div>
     </div>
   );

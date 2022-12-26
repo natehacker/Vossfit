@@ -1,6 +1,6 @@
 import React from 'react';
 //  import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
-import WhatVoss from "./components/containers/WhatVoss"
+// import WhatVoss from "./components/containers/WhatVoss"
  import Footer from "./components/containers/Footer"
  import Navbar from "./components/Navbar"
  import Header from './components/containers/Header';
@@ -13,7 +13,7 @@ const App = () => (
     <div className="gradient__bg">
       <Navbar />
        <Header />
-       <WhatVoss/>
+       {/* <WhatVoss/> */}
     </div>
     {/* <Brand />
     <WhatGPT3 />
