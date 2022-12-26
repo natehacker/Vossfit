@@ -34,8 +34,8 @@ const Navbar = () => {
             <p><a href="#home">Home</a></p>
             <p><a href="#wgpt3">What is VossFit</a></p>
             <p><a href="#possibility">Vossey Merch</a></p>
-            <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
+            <p><a href="#features">VossTech</a></p>
+            <p><a href="#blog">Rewards</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign in</p>
