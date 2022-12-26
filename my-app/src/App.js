@@ -6,6 +6,7 @@ import React from 'react';
  import Header from './components/containers/Header';
  import Possibility from './Possibility';
 import Blog from "./components/containers/Blog"
+import Sign from "./components/Sign"
 //  import Feature from './components/containers/Feature';
 //  import { CTA, Brand, Navbar } from '..';
 
@@ -18,7 +19,7 @@ const App = () => (
       <Navbar />
        <Header />
        <Possibility />
-   
+       {/* <Sign/> */}
        <Blog/>
        {/* <Feature/> */}
        {/* <WhatVoss/> */}
