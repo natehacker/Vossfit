@@ -6,7 +6,8 @@ import React from 'react';
  import Header from './components/containers/Header';
  import Possibility from './Possibility';
 import Blog from "./components/containers/Blog"
-import Sign from "./components/Sign"
+import Signup from "./components/containers/Signup"
+
 //  import Feature from './components/containers/Feature';
 //  import { CTA, Brand, Navbar } from '..';
 
@@ -19,17 +20,11 @@ const App = () => (
       <Navbar />
        <Header />
        <Possibility />
-       {/* <Sign/> */}
+       <Signup/>
        <Blog/>
-       {/* <Feature/> */}
-       {/* <WhatVoss/> */}
+     
     </div>
-    {/* <Brand />
-    <WhatGPT3 />
-    <Features />
-    <Possibility /> */}
-    {/* <CTA /> */}
-    {/* <Blog /> */}
+   
     <Footer />
   </div>
 );

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-// import logo from '../../logo.svg';
+import { Link } from "react-router-dom"
+
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,26 +10,25 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          {/* <img src="" /> */}
+        
         </div>
         <div className="gpt3__navbar-links_container">
-          <p><a href="#home">Active Wear</a></p>
-          <p><a href="#wgpt3">Deals</a></p>
-          <p><a href="#possibility">Brands</a></p>
-          <p><a href="#features">performance</a></p>
-          <p><a href="#blog">Herb-Life</a></p>
+          <p><a href="#">Active Wear</a></p>
+          <p><a href="#">Deals</a></p>
+          <p><a href="#">Brands</a></p>
+          <p><a href="#">performance</a></p>
+          <p><a href="#">Herb-Life</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
         <p>Sign in</p>
-        <a href='./sign'><button type="button">Sign up</button></a>
-       {/* <button><a href="./footer">VossTech</a></button> */}
+        <a href='#Signup'><button type="button">Sign up</button></a>
+        <a href=''type="button">Sign up</a>  
+       
+        
       </div>
       <div className="gpt3__navbar-menu">
-        {/* {toggleMenu
-          // ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          // : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
-        {toggleMenu && ( */}
+       
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
@@ -43,7 +42,7 @@ const Navbar = () => {
             <button type="button">Sign up</button>
           </div>
         </div>
-        {/* )} */}
+     
       </div>
     </div>
   );

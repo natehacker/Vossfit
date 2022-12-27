@@ -1,5 +1,6 @@
 import React from 'react';
 import Article from './Article';
+
 // import { blog01, blog02, blog03, blog04, blog05 } from './imports';
 
 import './Blog.css';
@@ -7,7 +8,13 @@ import './Blog.css';
 const Blog = () => (
   <div className="gpt3__blog section__padding" id="blog">
     <div className="gpt3__blog-heading">
-      <h1 className="gradient__text">lot is happening, <br /> We are blogging about it.</h1>
+<h1 className="gradient__text">See what is happening <br /> at Voss-Fitness.</h1>
+      <video controls>
+        <source src ="blackman.mp4" type="video/mp4"/>
+      </video>
+
+
+
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
