@@ -7,10 +7,10 @@ import { Container } from "react-bootstrap"
 const Blog = () => (
   <div className="gpt3__blog section__padding" id="blog">
     <div className="gpt3__blog-heading">
-<h1 className="gradient__text">See what is happening <br /> at Voss-Fitness.</h1>
+<h1 className="gradient__text"> WHAT IS<br />VOSS-FITNESS.</h1>
       <Container>
       <div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/YoYNZKKUPlU" title="YouTube video" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/Yoi_zB4OYp4" title="YouTube video" allowfullscreen></iframe>
 </div>
       </Container>
 
