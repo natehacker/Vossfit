@@ -1,5 +1,5 @@
 # Vossfit
-Nutrition Line 
+E-commerce Nutrition Line 
 
 Full-Stack Application 
 Vossfit Nutrition is a retail company based in Atlanta, Georgia that specializes in health and nutrition-related products, 
