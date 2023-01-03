@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-sign">
         <p>Sign in</p>
-        <a href='#Signup'><button type="button">Sign up</button></a>
+        <a href='#SignUp'><button type="button">Sign up</button></a>
       
        
         
