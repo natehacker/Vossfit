@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from "./components/containers/Home"
 import './App.css';
-import SignUp from './information/SignUp';
+import SignUp from './components/containers/SignUp';
 
 
 

@@ -1,16 +1,14 @@
 import React from 'react'
  import "./SignUp.css"
-
+ import thehand from '../assests/thehand.jpg';
 
 const SignUp = () => {
   return (
  
-   
     <div className='gpt-center'>
        <div class="text-center">
 
 <div class="container-xl" id="gpt-nathan">
-    
     <h3 id="gpt">Become a Voss Member Today</h3>
     <input type="text" id="inputp" placeholder="E-mail"/>
     <input type="text" id="inputp" placeholder="Nome"/>
@@ -21,9 +19,7 @@ const SignUp = () => {
 </div>
 
 <div class="container-xl" id="gpt-louissaint">
-    <div class="center">
-        <img src=""alt="nathan"/>
-    </div>
+    <img class= "gpt-m"src={thehand} />
 </div>
 
 </div>

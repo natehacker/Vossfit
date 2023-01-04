@@ -18,7 +18,7 @@ body {
 div#gpt-nathan {
     overflow: hidden;
     padding: 50px;
-    margin-top: 10%;
+    margin-top:0%;
     display: inline-block;
     width: 500px;
     height: 600px;
@@ -28,17 +28,24 @@ div#gpt-nathan {
 
 div#gpt-louissaint {
     overflow: hidden;
-    padding: 100px;
-    margin-top: 10%;
+    margin-top:24px;
     display: inline-block;
     width: 500px;
     height: 600px;
-    background-color: rgb(22, 22, 22);
+    
 }
 
 h3#gpt{
     margin-top: 20px;
     text-align: left;
+}
+
+
+.gpt-m{
+    
+    max-width: 100%;
+    border-radius: 20px;
+  
 }
 
 input#inputp {
@@ -52,6 +59,9 @@ input#inputp {
     border: 0;
     border-radius: 5px;
 }
+
+
+
 
 input#inputp:hover{
     transition: 0.5s;
