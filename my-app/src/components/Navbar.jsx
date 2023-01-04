@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// import { Link } from "react-router-dom"
-
+import { Link } from "react-router-dom"
 import './navbar.css';
 
 const Navbar = () => {
@@ -13,7 +12,8 @@ const Navbar = () => {
         
         </div>
         <div className="gpt3__navbar-links_container">
-          <p><a href="#">Active Wear</a></p>
+        <p><Link to ="/"></Link>Home</p>
+          <p><Link to = "/activewear">activewear</Link></p>
           <p><a href="#">Deals</a></p>
           <p><a href="#">Brands</a></p>
           <p><a href="#">performance</a></p>
@@ -21,8 +21,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <a href='#SignUp'><button type="button">Sign up</button></a>
+
+   
+        <p><Link to ="/Activewear"></Link>Sign in</p>
+        <Link to ='/SignUp'><button type="button">Sign up</button></Link>
       
        
         

@@ -1,5 +1,4 @@
 import React from 'react';
-// import people from '../../assets/people.png';
 import Vosstech from '../assests/Vosstech.png';
 import './Header.css';
 
