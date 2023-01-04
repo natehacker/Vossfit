@@ -13,17 +13,18 @@ import SignUp from './information/SignUp';
 
 
 
-
-
 const App = () => (
   <div className="App">
     <div className="gradient__bg">
-    <Navbar/>
+     <Navbar/>
       <Routes>
         <Route exact path ="/activewear" element={<Activewear/>}/>
         <Route exact path ="/Signup" element={<SignUp/>}/>
-        <Route exact path ="/" element={<Home/>}/>
-      </Routes>
+         <Route exact path ="/" element={<Home/>}/> 
+      </Routes> 
+
+
+      
       </div>
   </div>
 );

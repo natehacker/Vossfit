@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Possibility.css';
 import Thetech from "./components/assests/Thetech.png"
 

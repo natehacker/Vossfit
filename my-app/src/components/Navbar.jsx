@@ -12,7 +12,8 @@ const Navbar = () => {
         
         </div>
         <div className="gpt3__navbar-links_container">
-        <p><Link to ="/"></Link>Home</p>
+        {/* <p><Link to ="/"></Link>Home</p> */}
+        <p><Link to = "/">Home</Link></p>
           <p><Link to = "/activewear">activewear</Link></p>
           <p><a href="#">Deals</a></p>
           <p><a href="#">Brands</a></p>
