@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="gpt3__navbar-sign">
 
    
-        <p><Link to ="/Activewear"></Link>Sign in</p>
+        <p><Link to ="/Signin">Sign in</Link></p>
         <Link to ='/SignUp'><button type="button">Sign up</button></Link>
       
        

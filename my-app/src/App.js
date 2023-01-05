@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from "./components/containers/Home"
 import './App.css';
 import SignUp from './components/containers/SignUp';
+import Signin from './components/Signin';
 
 
 
@@ -20,6 +21,7 @@ const App = () => (
       <Routes>
         <Route exact path ="/activewear" element={<Activewear/>}/>
         <Route exact path ="/Signup" element={<SignUp/>}/>
+        <Route exact path ="/Signin" element={<Signin/>}/>
         <Route exact path ="/Blog" element={<Blog/>}/>
          <Route exact path ="/" element={<Home/>}/> 
       </Routes> 
