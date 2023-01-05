@@ -217,31 +217,12 @@ const Activewear = () => {
       </div>
     </div>
 
-    <div class="offer">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-2">
-            <img src="images/exclusive.png" class="offer-img" alt="" />
-          </div>
-          <div class="col-2">
-            <p>Exclusively available on RedStore</p>
-            <h1>Smart Band 4</h1>
-            <small
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi rerum maiores eveniet minus ut deserunt vitae
-            </small>
-            <a href="" class="btn">Buy Now &#8594;</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
     
     <div class="testimonial">
       <div class="small-container">
         <div class="row">
           <div class="col-3">
-            <i class="fa fa-quote-left"></i>
+            
 
            
            
@@ -250,31 +231,20 @@ const Activewear = () => {
           </div>
 
           <div class="col-3">
-            <i class="fa fa-quote-left"></i>
+            
 
            
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
+       
             <img src="images/user-2.png" alt="" />
            
           </div>
 
           <div class="col-3">
-            <i class="fa fa-quote-left"></i>
+            
 
             
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
+            
+           
             <img src="images/user-3.png" alt="" />
             
           </div>
@@ -282,78 +252,14 @@ const Activewear = () => {
       </div>
     </div>
 
-  
-
-    <div class="brands">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-5">
-            <img src="images/logo-godrej.png" alt="" />
-          </div>
-          <div class="col-5">
-            <img src="images/logo-oppo.png" alt="" />
-          </div>
-          <div class="col-5">
-            <img src="images/logo-paypal.png" alt="" />
-          </div>
-          <div class="col-5">
-            <img src="images/logo-philips.png" alt="" />
-          </div>
-          <div class="col-5">
-            <img src="images/logo-coca-cola.png" alt="" />
-          </div>
-        </div>
+    <div>
+     
       </div>
     </div>
 
    
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col-1">
-            <h3>Download Our App</h3>
-            <p>
-              Download App for Android <br />
-              and ios mobile phone
-            </p>
-            <div class="app-logo">
-              <img src="images/play-store.png" alt="" />
-              <img src="images/app-store.png" alt="" />
-            </div>
-          </div>
-          <div class="footer-col-2">
-            <img src="images/logo-white.png" alt="" />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur <br />adipisicing elit.
-              Porro, eum?
-            </p>
-          </div>
-          <div class="footer-col-3">
-            <h3>Useful Links</h3>
-            <ul>
-              <li>Coupons</li>
-              <li>Blog Post</li>
-              <li>Return Policy</li>
-              <li>Join Affiliate</li>
-            </ul>
-          </div>
-
-          <div class="footer-col-4">
-            <h3>Follow us</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Instagram</li>
-              <li>YouTube</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <p class="copyright">Copyright 2020 - introidx</p>
-      </div>
-    </div>
-
-    </div>
+    
+    
      
         
   )

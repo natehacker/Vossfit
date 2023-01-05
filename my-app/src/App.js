@@ -22,7 +22,7 @@ const App = () => (
         <Route exact path ="/Signup" element={<SignUp/>}/>
          <Route exact path ="/" element={<Home/>}/> 
       </Routes> 
-
+<Footer/>
 
       
       </div>

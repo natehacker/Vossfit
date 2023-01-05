@@ -1,5 +1,4 @@
 import React from 'react';
- import Footer from "./Footer"
  import Header from "./Header";
  import Possibility from '../../Possibility';
 import Blog from "./Blog"
@@ -11,7 +10,7 @@ const Home = () => {
     <Header/>
        <Possibility/>
        <Blog/>
-       <Footer/>
+      
       
    </div>
   )
