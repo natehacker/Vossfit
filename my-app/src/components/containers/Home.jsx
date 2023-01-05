@@ -3,7 +3,6 @@ import React from 'react';
  import Header from "./Header";
  import Possibility from '../../Possibility';
 import Blog from "./Blog"
-import SignUp from './SignUp';
 
 
 const Home = () => {
@@ -13,7 +12,7 @@ const Home = () => {
        <Possibility/>
        <Blog/>
        <Footer/>
-         <SignUp/> 
+      
    </div>
   )
 }
