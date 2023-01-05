@@ -10,8 +10,10 @@ const Possibility = () => (
     <div className="gpt3__possibility-content">
       
       <h1 className="gradient__text">Understanding The Technology <br />behind Voss-Fitness</h1>
-      <p>Y.</p>
-      <h4>Request Early Access to Get Started</h4>
+      <p>When it comes to innovative sportswear and supplementation Voss fitness has outdone its competition on numerous 
+        accounts we have sold more products for health than GNC. However, this was no easy accomplishment our company 
+        prides itself on using advanced technology to 
+        make sure we supply the right products that give our athletes a leading edge on the field </p>
     </div>
   </div>
 );
