@@ -1,5 +1,9 @@
 import React from 'react'
  import "./active.css"
+ import vosspr from '../assests/vosspr.png';
+ import vosspro from '../assests/vosspro.png';
+ import vossprot from '../assests/vossprot.png';
+ import vossprotei from '../assests/vossprotei.png';
 
 const Activewear = () => {
   return (
@@ -13,7 +17,7 @@ const Activewear = () => {
           <nav>
          
             </nav>
-            <img src="images/cart.png" alt="" width="30px" height="30px"
+            <img src="" alt="protein" width="30px" height="30px"
           />
           <img
             src="images/menu.png"
@@ -60,7 +64,7 @@ const Activewear = () => {
       <h2 class="title">Shop Protein</h2>
       <div class="row">
         <div class="col-4">
-          
+        <img class= "pr"src={vosspr} alt="run"/>
           <h4>Vanilla Protein Blast</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -73,7 +77,7 @@ const Activewear = () => {
         </div>
 
         <div class="col-4">
-          <img src="images/product-2.jpg" alt="" />
+        <img class= "pr"src={vosspro} alt="run"/>
           <h4>Chocolate Chip Dream</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -86,7 +90,7 @@ const Activewear = () => {
         </div>
 
         <div class="col-4">
-          <img src="images/product-3.jpg" alt="" />
+        <img class= "pr"src={vossprot} alt="run"/>
           <h4>Cheesecake brain</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -98,7 +102,7 @@ const Activewear = () => {
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-4.jpg" alt="" />
+        <img class= "pr"src={vossprotei} alt="run"/>
           <h4>Red Velvet moon</h4>
           <div class="rating">
             <i class="fa fa-star"></i>

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
  import Header from './components/containers/Header';
  import Possibility from './Possibility';
 import Blog from "./components/containers/Blog"
-import Activewear from './components/Activewear';
+import Activewear from './components/containers/Activewear';
 import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from "./components/containers/Home"
