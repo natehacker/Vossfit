@@ -14,7 +14,9 @@ const Possibility = () => (
         accounts we have sold more products for health than GNC. However, this was no easy accomplishment our company 
         prides itself on using advanced technology to 
         make sure we supply the right products that give our athletes a leading edge on the field </p>
+    
     </div>
+ 
   </div>
 );
 

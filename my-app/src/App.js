@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
  import Footer from "./components/containers/Footer"
  import Header from './components/containers/Header';
  import Possibility from './Possibility';
@@ -11,10 +11,24 @@ import './App.css';
 import SignUp from './components/containers/SignUp';
 import Signin from './components/Signin';
 
+import axios from "axios"
 
 
 
-const App = () => (
+const App = () => {
+const [signUps, setsignUps]= useState()
+
+
+  async function getAllSignUps (){
+    let res = await axios.get("http://localhost:3001/auth/")
+    console.log(res.data)
+    console.log(signUps)
+  }
+
+  useEffect(() => {
+    getAllSignUps()
+  }, [])
+return (
   <div className="App">
     <div className="gradient__bg">
      <Navbar/>
@@ -30,6 +44,6 @@ const App = () => (
       
       </div>
   </div>
-);
+)};
 
 export default App;
