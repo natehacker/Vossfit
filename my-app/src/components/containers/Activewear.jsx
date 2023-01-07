@@ -4,6 +4,7 @@ import React from 'react'
  import vosspro from '../assests/vosspro.png';
  import vossprot from '../assests/vossprot.png';
  import vossprotei from '../assests/vossprotei.png';
+ import ghost from "../assests/ghost.png";
 
 const Activewear = () => {
   return (
@@ -117,7 +118,7 @@ const Activewear = () => {
       <h2 class="title">Mass Gainer</h2>
       <div class="row">
         <div class="col-4">
-          <img src="images/product-5.jpg" alt="" />
+        <img class= "pr"src={ghost} alt="run"/>
           <h4>Zeus</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
