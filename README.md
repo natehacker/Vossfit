@@ -16,3 +16,7 @@ django
 Git
 
 <img src="resumev.png" alt="voss">
+
+<img src="resumelog.png" alt="voss">
+
+<img src="resumevo.png" alt="voss">
