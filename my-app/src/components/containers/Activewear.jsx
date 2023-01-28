@@ -5,7 +5,9 @@ import React from 'react'
  import vossprot from '../assests/vossprot.png';
  import vossprotei from '../assests/vossprotei.png';
  import ghost from "../assests/ghost.png";
-
+import newpr from "../assests/newpr.png"
+import redp from "../assests/redp.png"
+import yellow from "../assests/yellow.png"
 const Activewear = () => {
   return (
     <div>
@@ -33,8 +35,10 @@ const Activewear = () => {
              SHOP NEW VOSS SUPPLEMENTS <br />
              
             </h1>
-            <p>
-              Voss-Fitness Is Offering 50% Off All Supplements Starting Friday
+            <p><a href='https://www.gnc.com'>
+            Voss-Fitness Is Offering 50% Off All Supplements Starting Friday
+            </a>
+              
             </p>
             <a href="" class="btn">Get Deals</a>
           </div>
@@ -131,7 +135,7 @@ const Activewear = () => {
         </div>
 
         <div class="col-4">
-          <img src="images/product-6.jpg" alt="" />
+        <img class= "pr"src={newpr} alt="run"/>
           <h4>Mount Olympus</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -144,7 +148,7 @@ const Activewear = () => {
         </div>
 
         <div class="col-4">
-          <img src="images/product-7.jpg" alt="" />
+        <img class= "pr"src={redp} alt="run"/>
           <h4>Devils Power</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -156,7 +160,7 @@ const Activewear = () => {
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-8.jpg" alt="" />
+        <img class= "pr"src={yellow} alt="run"/>
           <h4>Hardstyle Plus</h4>
           <div class="rating">
             <i class="fa fa-star"></i>

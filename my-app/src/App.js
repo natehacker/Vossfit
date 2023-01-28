@@ -10,6 +10,7 @@ import Home from "./components/containers/Home"
 import './App.css';
 import SignUp from './components/containers/SignUp';
 import Signin from './components/Signin';
+import { Brand } from './components/containers/Brand';
 
 import axios from "axios"
 
@@ -37,6 +38,7 @@ return (
         <Route exact path ="/Signup" element={<SignUp/>}/>
         <Route exact path ="/Signin" element={<Signin/>}/>
         <Route exact path ="/Blog" element={<Blog/>}/>
+        <Route exact path ="/Brands" element={<Brand/>}/>
          <Route exact path ="/" element={<Home/>}/> 
       </Routes> 
 <Footer/>
